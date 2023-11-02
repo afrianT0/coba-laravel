@@ -1,0 +1,61 @@
+/* All Posts */
+.bg-cover {
+    position: relative;
+}
+.cover {
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: var(--bs-card-img-overlay-padding);
+    border-radius: var(--bs-card-inner-border-radius);
+    --bs-bg-opacity: 0;
+}
+.cover:hover {
+    --bs-bg-opacity: 0.5;
+}
+
+/* Categories Pages */
+.card-img-overlay {
+    transition: background-color 0.3s ease;
+}
+
+.card-img-overlay:hover {
+    --bs-bg-opacity: 0.75;
+}
+
+/* Form Login */
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* Form Login End */
+
+/* Form Registration */
+
+.form-registration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+/* Form Registration End */
+
+.pagination-around
+    > nav
+    > div.d-flex.justify-content-between.flex-fill.d-sm-none {
+    justify-content: space-around !important;
+}
